@@ -1,0 +1,40 @@
+.brantName{
+    font-size: Post No Bills Colombo ExtraBold;
+    Weight:800;
+    font-size: 40px;
+    line-height: 59.8px;
+}
+nav{
+    background-color: #f0e3b4;
+}
+.menuData{
+    width: 50rem;
+    justify-content: center;
+}
+
+.loginDiv ul {
+    gap:1rem;
+}
+.logo{
+    display: flex;
+    width: 55%;
+}
+.menuItem:focus{
+    color: #ea6c24;
+    /* transform: scale(1.2); */
+}
+.vertical {
+    border-left: 1px solid black;
+    height: 30px;
+    position: absolute;
+    left: 87%;
+    top: 25px;
+}
+@media screen and (max-width:991px) {
+    .logo{
+        justify-content: space-between;
+    }
+    .line{
+        display: none;
+    }
+}

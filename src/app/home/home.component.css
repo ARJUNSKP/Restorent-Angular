@@ -1,0 +1,111 @@
+.homepage{
+    background-color: #f0e3b4;
+    overflow-x: hidden;
+    padding: 3rem 0;
+    --bs-gutter-x: 0;
+}
+.labels{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fast{
+    color: #ea6c24;
+    font-size:  8.5rem;
+    font-family: 'Urbanist', sans-serif;
+}
+.foodDelivery{
+    margin-top: 1.75rem;
+}
+.foodDelivery h4{
+    font-size:  3rem;
+    font-family: 'Urbanist', sans-serif;
+}
+.labels p{
+    font-family: Poppins;
+    /* width: 482px; */
+    font-size: clamp(18px, 10vh, 22px);
+    line-height: 33px;
+}
+.orderButton{
+    border-radius: 5rem;
+    width: 10.5rem;
+    font-family: Poppins;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.watchButton{
+    font-family: Poppins;
+    Weight:600px;
+    font-size:20px;
+    Line-height:18.96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: .5rem;
+}
+.playButton{
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonGroup{
+    display: flex;
+}
+.Category{
+    display: flex;
+    gap: 2rem;
+}
+.foodCategory{
+    width: 4.5rem;
+    height: 7.5rem;
+    border-radius: 5rem;
+    background-color: #fff;
+}
+.CategoryBg{
+    background-color: #f0e4b6;
+    width: auto;
+    height: auto;
+    padding: .2rem;
+    border-radius: 5rem;
+}
+.banner img{
+    object-fit: cover;
+}
+
+@media screen and (max-width:991px){
+    .banner{
+        display: none;
+    }
+    .labels{
+        align-items: center;
+    }
+    .labels p{
+        text-align: center;
+    }
+} 
+@media screen and (max-width:470px) {
+    .fast{
+        font-size: 5.5rem;
+    }
+    .foodDelivery{
+
+        margin-top: 1.2rem;
+    }
+    .foodDelivery h4{
+        font-size:  1.9rem;
+    }
+    .orderButton{
+        width: 9.5rem;
+    }
+    .Category{
+        gap: .5rem;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,45 @@
+.contact{
+    background-color: #cce2d7;
+}
+.contactTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactTitle h2{
+    font-family: 'Archivo', sans-serif;
+    line-height: 78px;
+    font-size: clamp(25px, 10vw, 52px);
+}
+.row{
+    --bs-gutter-x: 0;
+}
+.contactDetails{
+    width: 55%;
+}
+.contactTable{
+    border:1px solid #f0e3b4;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+#messageId{
+    height:14rem;
+}
+.formSubmitBtn{
+    background-color: #ea6c24;
+    width: 7rem;
+    margin-top: 1rem;
+}
+.contactFromCondact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:500px) {
+    .contactDetails{
+        width: 80%;
+    }
+}

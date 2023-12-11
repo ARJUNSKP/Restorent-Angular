@@ -1,0 +1,38 @@
+.cardQuote{
+    width: 18rem;
+    height: 15.5rem;
+    background-color: #fff;
+    padding-top: 2rem;
+}
+.customer{
+    background-color: #d7e3cc;
+    padding: 3rem 0 5rem 0;
+}
+.quote{
+    color: #ea6c24;
+}
+.cardRate{
+    width: 18rem;
+    height: 8rem;
+    background-color: #fce7dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardData h2{
+    font-family: 'Archivo', sans-serif;
+    line-height: 78px;
+    font-size: clamp(25px, 10vw, 52px);
+}
+.checked {
+    color: #ea6c24;
+  }
+.carouselData{
+    gap: 6rem;
+}

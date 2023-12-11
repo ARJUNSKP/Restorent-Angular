@@ -1,0 +1,125 @@
+.menu{
+    background-color: #f0e3b4;
+}
+.menuTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menuTitle h2{
+    font-family: 'Archivo', sans-serif;
+    line-height: 78px;
+    font-size: clamp(25px, 10vw, 52px);
+}
+.menuDetails{
+    width: 55%;
+}
+.filter{
+    background-color: #f0e3b4;
+    border: 1px solid #ea6c24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .2rem .5rem .2rem .2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.filterImg{
+    background-color: #ea6c24;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    width: 3rem;
+}
+.filter:focus{
+    background-color: #ea6c24;
+}
+.filterBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem
+}
+.menuCard{
+    width: 263px;
+    height: 310px;
+    padding: 6.3rem 1rem 2.5rem 1rem;
+    background-color: white;
+    margin: 1rem;
+}
+.menuCard label{
+    font-size: 1.5rem;
+}
+.menuCard p{
+    font-size: 16px;
+}
+.foodImg{
+    position: relative;
+    left: 1rem;
+    top: -23.5rem;
+}
+.wishlist{
+    position: relative;
+    top: -22rem;
+    left: 1.23rem;
+    color:#ea6c24 ;
+}
+.wishlist i:hover{
+    background-color: #ea6c24;
+}
+.addCart{
+    background-color: #ea6c24;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%20%/50%20%;
+}
+.menuBottomBtn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .2rem;
+}
+.menuBottom{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5rem 3rem;
+    margin-top: 10rem;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.imageMoveBtn{
+    background-color: #fff;
+    color: #ea6c24;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%20%/50%20%;
+}
+.buttonPosition{
+    justify-content: end;
+}
+
+@media screen and (max-width:500px) {
+    .menuDetails{
+        width: 80%;
+    }
+}
+@media screen and (max-width:555px) {
+    .filterBtn{
+        gap: .5rem;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:447px) {
+    .menuBottom{
+        padding: 0 0 3rem;
+    }
+}

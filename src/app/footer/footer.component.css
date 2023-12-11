@@ -1,0 +1,22 @@
+.footerTable{
+    background-color: #cce2d7;
+    padding: 3rem 2rem;
+}
+.footerLabel{
+    color: rgb(69, 104, 116);
+    font-size: 1.8rem;
+}
+.navigater{
+    text-decoration: none;
+    font-size: 20px;
+}
+@media screen and (max-width:767px) {
+    .formContent{
+        padding-top: 2rem;
+    }
+    .emailFormFooter{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

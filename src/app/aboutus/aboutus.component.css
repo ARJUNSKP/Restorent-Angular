@@ -1,0 +1,28 @@
+.aboutUs{
+    padding: 5rem 0;
+    background-color: #f0e3b4;
+}
+.row{
+    --bs-gutter-x: 0;
+}
+.aboutUsImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutUsContent h2{
+    font-family: Poppins;
+    font-size: 52px;
+    line-height: 78px;
+    padding: 0 2rem;
+}
+.aboutUsContent p{
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 0 2rem;
+}
+.aboutUsContent button{
+    background-color: #ea6c24;
+    margin: 0 2rem;
+}
